@@ -37,7 +37,7 @@
             break;
     }
     UIFont *font = [UIFont fontWithName:fontName size:fontSize];
-    return font ?: [UIFont systemFontOfSize:fontSize];
+    return font ? : [UIFont systemFontOfSize:fontSize];
 }
 
 @end

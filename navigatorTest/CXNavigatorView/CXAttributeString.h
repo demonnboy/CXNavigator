@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NSString *CXAttributedStringKey NS_EXTENSIBLE_STRING_ENUM;
+typedef NSString * CXAttributedStringKey NS_EXTENSIBLE_STRING_ENUM;
 
 @interface CXAttributeString : NSObject
 
